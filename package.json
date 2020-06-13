@@ -1,14 +1,16 @@
 {
   "name": "starwardemo",
-  "version": "1.1.0",
+  "version": "0.0.0-development",
   "description": "Starwar demo library ",
   "main": "sr/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "commit": "git-cz",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mohanrathod-robosoft/starwarDemo.git"
+    "url": "https://github.com/mohanrathod-robosoft/starwarDemo.git"
   },
   "keywords": [
     "starwar",
@@ -23,5 +25,13 @@
   "dependencies": {
     "ramda": "0.27.0",
     "unique-random-array": "2.0.0"
+  },
+  "devDependencies": {
+    "commitizen": "4.1.2",
+    "cz-conventional-changelog": "3.2.0",
+    "semantic-release": "^17.0.8"
+  },
+  "czConfig": {
+    "path":"node_modules/cz-conventional-changelog"
   }
 }
