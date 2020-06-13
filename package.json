@@ -1,0 +1,26 @@
+{
+  "name": "starwardemo",
+  "version": "1.0.0",
+  "description": "Starwar demo library ",
+  "main": "sr/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohanrathod-robosoft/starwarDemo.git"
+  },
+  "keywords": [
+    "starwar",
+    "search"
+  ],
+  "author": "Mohan Rathod <mohan.rathod@robosoftin.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mohanrathod-robosoft/starwarDemo/issues"
+  },
+  "homepage": "https://github.com/mohanrathod-robosoft/starwarDemo#readme",
+  "dependencies": {
+    "unique-random-array": "2.0.0"
+  }
+}
