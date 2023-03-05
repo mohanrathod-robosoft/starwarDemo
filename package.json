@@ -27,7 +27,7 @@
     "unique-random-array": "2.0.0"
   },
   "devDependencies": {
-    "commitizen": "4.1.2",
+    "commitizen": "4.3.0",
     "cz-conventional-changelog": "3.2.0",
     "semantic-release": "^17.0.8"
   },
